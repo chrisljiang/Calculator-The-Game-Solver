@@ -1,0 +1,3 @@
+D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/CMakeFiles/CalculatorGame.dir
+D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir

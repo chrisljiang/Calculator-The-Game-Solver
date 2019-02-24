@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CalculatorGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CalculatorGame">
+				<Option output="D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/CalculatorGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 CalculatorGame"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CalculatorGame/fast">
+				<Option output="D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/CalculatorGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 CalculatorGame/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Google Drive/Coding/ClionProjects/CalculatorGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/extrafunc.cpp">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/extrafunc.h">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/main.cpp">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/ops.cpp">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/ops.h">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/opsenum.h">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/rules.cpp">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/rules.h">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/sol.cpp">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/sol.h">
+			<Option target="CalculatorGame"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
