@@ -5,7 +5,6 @@
 #ifndef CALCULATORGAME_SOL_H
 #define CALCULATORGAME_SOL_H
 
-#include <string>
 #include <vector>
 
 #include "ops.h"

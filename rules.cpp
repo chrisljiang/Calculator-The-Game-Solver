@@ -2,16 +2,11 @@
 // Created by chrisljiang on 2019-02-17.
 //
 
-#include <string>
 #include <iostream>
-#include <vector>
 #include <queue>
 #include <climits>
-#include <cmath>
 
 #include "rules.h"
-#include "ops.h"
-#include "sol.h"
 #include "extrafunc.h"
 
 rules::rules(std::string initial) {
@@ -112,14 +107,13 @@ void rules::calc() {
 }
 
 void rules::print() {
-    std::cout << "beg\tfin\tmovs\tporin\tporout\tnumOp" << std::endl
+    std::cout << "beg\tfin\tmov\tpin\tpot\tops" << std::endl
               << beg << "\t"
               << fin << "\t"
               << movs << "\t"
               << porin << "\t"
               << porout << "\t"
               << numOp << std::endl << std::endl;
-
 
     for (unsigned cnt = 0; cnt < numOp; cnt++) {
         std::cout << allops[cnt].specop << "\t" << allops[cnt].num1 << "\t" << allops[cnt].num2 << std::endl;
@@ -131,24 +125,23 @@ void rules::print() {
         for (std::vector<ops>::iterator cur = it->moves.begin(); cur != it->moves.end(); ++cur) {
             std::cout << cur->specop;
 
+            // sig, rev, sum, del, shr, shl, mir, inv, sto
+            // add, sub, mul, div, ndg, pow, ext
+            // rep
 
-            // none, sign, reverse, sum, del, shiftr, shiftl, mirror, store
-            // add, subtract, multiply, divide, newdig, power, extra
-            // replace
-
-            if (cur->specop == "store" ||
+            if (cur->specop == "sto" ||
                 cur->specop == "add" ||
-                cur->specop == "subtract" ||
-                cur->specop == "multiply" ||
-                cur->specop == "divide" ||
-                cur->specop == "newdig" ||
-                cur->specop == "power" ||
-                cur->specop == "extra" ||
-                cur->specop == "replace") {
+                cur->specop == "sub" ||
+                cur->specop == "mul" ||
+                cur->specop == "div" ||
+                cur->specop == "ndg" ||
+                cur->specop == "pow" ||
+                cur->specop == "ext" ||
+                cur->specop == "rep") {
 
                 std::cout << "-" << cur->num1;
 
-                if (cur->specop == "replace") std::cout << "-" << cur->num2;
+                if (cur->specop == "rep") std::cout << "-" << cur->num2;
             }
 
             std::cout << "\t";

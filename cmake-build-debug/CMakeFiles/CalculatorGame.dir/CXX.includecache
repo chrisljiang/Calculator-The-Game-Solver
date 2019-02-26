@@ -6,39 +6,17 @@
 
 #IncludeRegexTransform: 
 
-D:/Google Drive/Coding/ClionProjects/CalculatorGame/extrafunc.h
-string
--
-
-D:/Google Drive/Coding/ClionProjects/CalculatorGame/ops.h
-string
--
-
-D:/Google Drive/Coding/ClionProjects/CalculatorGame/rules.cpp
-string
--
+D:/Google Drive/Coding/ClionProjects/CalculatorGame/main.cpp
 iostream
--
-vector
--
-queue
--
-climits
--
-cmath
 -
 rules.h
 D:/Google Drive/Coding/ClionProjects/CalculatorGame/rules.h
-ops.h
-D:/Google Drive/Coding/ClionProjects/CalculatorGame/ops.h
-sol.h
-D:/Google Drive/Coding/ClionProjects/CalculatorGame/sol.h
-extrafunc.h
-D:/Google Drive/Coding/ClionProjects/CalculatorGame/extrafunc.h
 
-D:/Google Drive/Coding/ClionProjects/CalculatorGame/rules.h
+D:/Google Drive/Coding/ClionProjects/CalculatorGame/ops.h
 string
 -
+
+D:/Google Drive/Coding/ClionProjects/CalculatorGame/rules.h
 vector
 -
 ops.h
@@ -47,8 +25,6 @@ sol.h
 D:/Google Drive/Coding/ClionProjects/CalculatorGame/sol.h
 
 D:/Google Drive/Coding/ClionProjects/CalculatorGame/sol.h
-string
--
 vector
 -
 ops.h

@@ -95,9 +95,6 @@
 		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/ops.h">
 			<Option target="CalculatorGame"/>
 		</Unit>
-		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/opsenum.h">
-			<Option target="CalculatorGame"/>
-		</Unit>
 		<Unit filename="D:/Google Drive/Coding/ClionProjects/CalculatorGame/rules.cpp">
 			<Option target="CalculatorGame"/>
 		</Unit>

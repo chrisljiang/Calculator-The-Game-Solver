@@ -5,7 +5,6 @@
 #ifndef CALCULATORGAME_RULES_H
 #define CALCULATORGAME_RULES_H
 
-#include <string>
 #include <vector>
 
 #include "ops.h"
